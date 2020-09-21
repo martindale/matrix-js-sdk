@@ -53,5 +53,5 @@ log.methodFactory = function(methodName, logLevel, loggerName) {
  * Can be tailored down to specific use cases if needed.
  */
 export const logger = log.getLogger(DEFAULT_NAMESPACE);
-logger.setLevel(log.levels.DEBUG);
+logger.setLevel(log.levels.SILENT);
 
